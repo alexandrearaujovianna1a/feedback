@@ -7,3 +7,15 @@
 
     font-family: "Overpass", sans-serif;
 }
+
+:root {
+
+    --dark-blue: #262e38;
+    --ligh-gray: #969FAD;
+    --medium-gray: #7c8798;
+    --orange: #fc7614
+    --white: #fff
+    --very-dark-blue: #131518
+    --brack-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #101E27 100%);
+
+}
