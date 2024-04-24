@@ -95,7 +95,8 @@ transition: all ease-in-out 0.3s;
     background-color: var(--ligh-gray);
 
 }
-.card > button {
+.card > a {
+    display: block;
     width: 100%;
     padding: 23px;
     background-color: var(--orange);
@@ -107,11 +108,13 @@ transition: all ease-in-out 0.3s;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--white);
+    text-align: center;
+    text-decoration: none;
 
     transition: all ease-in-out 0.3s;
 }
 
-.card > button:hover {
+.card > a:hover {
 color: var(--orange);
 background-color: var(--white);
 cursor: pointer;
