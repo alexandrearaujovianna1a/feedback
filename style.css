@@ -6,6 +6,9 @@
     box-sizing: border-box;
 
     font-family: "Overpass", sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+
 }
 
 :root {
@@ -20,14 +23,12 @@
 
 }
 
-body {
+.body{
     background-color: var(--very-dark-blue)
     height: 100svh;
     display: flex;
     justify-content: center;
-    align-itens: center;
-
-    
+    align-itens: center; 
 }
 .card {
     background: var(--brack-gradient);
@@ -39,14 +40,49 @@ body {
 
 .card h1 {
     color: var(--white);
+    font-size: 28px;
+    margin-bottom: 15px;
+
 }
 
 .card p {
     color: var(--ligh-gray);
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+
 }
 
 .estrela {
     background-color: var(--dark-blue);
     width: 48px;
     height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+
+
+    margin-bottom: 30px;
+}
+
+.botoes{
+width: 51px;
+height: 51px;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+border-radius: 50%;
+border: none;
+color: var(--medium-gray);
+background-color: var(--dark-blue);
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes button:hover{
+    
 }
